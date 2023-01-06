@@ -15,5 +15,5 @@ module.exports = ({ env }) => {
     }
   };
 
-  return connections[env('DATABASE_CLIENT', "sqlite")];
+  return connections[env('DATABASE_CLIENT', "postgres")];
 };
